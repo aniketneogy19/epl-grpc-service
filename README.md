@@ -1,7 +1,8 @@
 # epl-grpc-service
-How to build : mvn clean install
+- How to build : mvn clean install
 
-How to start the server : 
+
+- How to start the server : 
 ```
 <plugin>
       <groupId>org.codehaus.mojo</groupId>
@@ -24,5 +25,9 @@ How to start the server :
 </build>
 ```
 
-After updating your pom.xml file with the new configuration, you can run your server using the following command:
+- After updating your pom.xml file with the new configuration, you can run your server using the following command:
 `mvn exec:java -Dexec.mainClass="com.example.grpc.Server"`
+
+
+
+- By default the Calculator gRPC service will be started on port 50051
